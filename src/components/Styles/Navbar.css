@@ -1,0 +1,28 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+.navbar{
+    background-color: #0b0e14;
+    color: aliceblue;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    ;
+}
+.container-fluid img{
+    margin-right: 37%;
+}
+
+.headData{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:1100px) {
+    .headData{
+        margin-top: 20px;
+    }
+}
